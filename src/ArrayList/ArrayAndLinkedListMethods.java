@@ -46,6 +46,8 @@ public class ArrayAndLinkedListMethods {
 			System.out.println("From LinkedList: " + persLinked.getNombre());
 		}
 
+		
+		
 	}
 
 }

@@ -47,7 +47,11 @@ public class Persona {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+
 	
-	
-	
+	//We are going to rewrite the to string method
+	@Override
+	public String toString() {
+		return "Persona id: " + id + ", nombre: " + nombre + ", edad: " + edad + ".";
+	}
 }
